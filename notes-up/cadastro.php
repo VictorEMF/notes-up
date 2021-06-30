@@ -16,8 +16,6 @@ if(isset($_POST['titulo']) && isset($_POST['tema']) && isset($_POST['conteudo'])
     $qtd = $n->cadastrarNota($titulo,$tema,$conteudo);
 }
 
-echo $qtd;
-
 ?>
 
     <div class="cadastro">
